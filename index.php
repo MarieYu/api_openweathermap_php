@@ -75,7 +75,7 @@
 
             <span id="info">
                 <ul>
-                    <li>Date de mesure : <?= $measureDate ?></li>
+                    <li>Heure de mesure : <?= $measureDate ?></li>
                     <li>Lever du soleil : <?= $sunrise ?></li>
                     <li>Coucher du soleil : <?= $sunset ?></li>
                     <li>Humidité : <?= $humidity ?></li>

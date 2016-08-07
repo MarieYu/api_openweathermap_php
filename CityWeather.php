@@ -24,7 +24,8 @@ class CityWeather{
 	 * @return string : hours with 24h format
 	 */
 	private function formatTime($enterTime){
-		return strftime('%H:%M', $enterTime);
+		$date = strftime('%H:%M', $enterTime);
+		return str_replace(':', 'h', $date);
 	}
 
 	/**
@@ -69,7 +70,7 @@ class CityWeather{
 	 */
 	public function getMeasureDate(){
 		$measure = $this->measureDate;
-		return $this->formatDateFR($measure);
+		return $this->formatTime($measure);
 	}
 
 	/**
