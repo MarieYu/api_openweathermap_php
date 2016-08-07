@@ -1,0 +1,79 @@
+
+body{
+	background-image: url("../img/skyWallpaper.jpg");
+}
+#station{
+	margin-right: 440px;
+	margin-left: 440px;
+	background-color: white;
+	border-radius: 2%;
+	vertical-align: center;
+}
+
+h1{
+	text-align: center;
+}
+.cityForm{
+	display: inline;
+	margin: 10px;
+}
+#search{
+	text-align: center;
+}
+
+#title{
+	margin-left: 10px;
+}
+
+/* -------------- Day weather ---------------*/
+#cityWeather{
+	display: flex;
+	align-items: center;
+}
+
+#cityWeather span{
+	margin: 1%;
+}
+
+#temp{
+	font-size: 2em;
+	font-weight: bold;
+}
+
+/* -------------- Forecast weather ---------------*/
+#forecast span{
+	display: inline-block;
+	height: 300px;
+	text-align: center;
+}
+
+.iconImg{
+	width: 150px;
+}
+
+#btn_forecast{
+	display: block;
+	margin-left: 40%;
+	margin-right: 40%;
+	height: 60px;
+	width: 150px;
+	text-align: center;
+}
+
+#forecast span p{
+	text-align: center;
+}
+
+.pointer{
+	cursor: pointer;
+}
+
+/* -------------- General style ---------------*/
+label, input, button, li, p, h1, h3, span{
+	font-family: calibri, verdana, arial;
+}
+
+li{
+	list-style-type: none;
+}
+
